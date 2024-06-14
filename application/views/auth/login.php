@@ -13,6 +13,9 @@
                                     <h3 class="text-center">Sign In</h3>
                                 </div>
                             </div>
+                            <?= $this->session->flashdata('message');
+                            ?>
+                            <?php $this->session->unset_userdata('message'); ?>
                             <div class="form-group form-primary">
                                 <input type="text" name="email" class="form-control" required="">
                                 <span class="form-bar"></span>
