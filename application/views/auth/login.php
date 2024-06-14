@@ -68,7 +68,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center f-center">
-                                    <a href="auth/registration" class="text-center text-primary"> Forgot Password?</a>
+                                    <a href="auth/registration" class="text-center text-primary">Create an Account?</a>
                                 </div>
                             </div>
                         </div>
