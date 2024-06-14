@@ -29,7 +29,7 @@
                                 </div>
                             </div>
                             <div class="text-center f-center">
-                                <a href="auth/registration" class="text-center text-primary">Create an Account?</a>
+                                <a href="<?= base_url('auth/registration'); ?>" class="text-center text-primary">Create an Account?</a>
                             </div>
                         </div>
                     </div>
