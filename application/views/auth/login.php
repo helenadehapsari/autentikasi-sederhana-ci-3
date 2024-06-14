@@ -20,15 +20,17 @@
                                 <input type="text" name="email" class="form-control" required="">
                                 <span class="form-bar"></span>
                                 <label class="float-label">Your Email Address</label>
+                                <?= form_error('email', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <div class="form-group form-primary">
                                 <input type="password" name="password" class="form-control" required="">
                                 <span class="form-bar"></span>
                                 <label class="float-label">Password</label>
+                                <?= form_error('password', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <div class="row m-t-30">
                                 <div class="col-md-12">
-                                    <button type="button" class="btn btn-primary btn-md btn-block waves-effect waves-light text-center m-b-20">Sign in</button>
+                                    <button type="submit" class="btn btn-primary btn-md btn-block waves-effect waves-light text-center m-b-20">Sign in</button>
                                 </div>
                             </div>
                             <div class="text-center f-center">
